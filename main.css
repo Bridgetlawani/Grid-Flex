@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+main{
+    display: flex;
+    width: 75%;
+    margin:0 auto ;
+    justify-content: center;
+    height: 80vh;
+    
+    
+
+}
+.card1{
+    width: 25%;
+    margin-top: 50px;
+    background-color: #e38826;
+    padding: 30px 30px;
+    
+
+}
+.card2{
+    width: 25%;
+    margin-top: 50px;
+    background-color: #006970;
+    padding: 30px 30px;
+
+}
+.card3{
+    width: 25%;
+    margin-top: 50px;
+    background-color: #004241;
+    padding: 30px 30px;
+}
+h1{
+    color: #f2f2f2;
+    margin: 30px 45px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);  
+  margin-bottom: 30px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+button{
+    background: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    margin: 50px 15px;
+    padding: 12px 10px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    
+    
+
+}
+.card1 button{
+    color: hsl(31, 77%, 52%);
+}
+.card2 button{
+    color: #006970;
+}
+.card3 button{
+    color: #004241;
+}
+.grid-btn a{
+    background: cyan;
+    border-radius: 20px;
+    margin: 50px 15px;
+    padding: 12px 10px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+@media screen and(minwidth:700px) {
+    main div{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 50%;
+    }
+    
+}
